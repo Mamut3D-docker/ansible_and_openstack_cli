@@ -16,7 +16,7 @@ https://<YOUR_OPENSTACK_WEB_DOMAIN_NAME>/horizon/project/access_and_security/ope
 Commands to run container:
 ~~~
 $ OSTACKRC=<ADD_PATH_TO_openrc.sh>
-$ docker run --rm -it -v $OSTACKRC:/root/rc.sh:z mamut3d/openstack_cli bash -c "cd; . rc.sh; bash"
+$ docker run --rm -it -v $OSTACKRC:/root/rc.sh:z mamut3d/ansible_and_openstack_cli bash -c "cd; . rc.sh; bash"
 Please enter your OpenStack Password:
 
 ~~~
