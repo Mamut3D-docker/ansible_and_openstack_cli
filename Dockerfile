@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y software-properties-common && \
   apt-get update && apt-get install -y \
   ansible \
   qemu-utilsi \
+  wget \
+  curl \
   && rm -rf /var/cache/apk/*
 
 CMD ["/bin/bash"]
